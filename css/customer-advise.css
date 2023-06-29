@@ -1,0 +1,74 @@
+form {
+	padding-top: 30px;
+}
+.wrap-input {
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 20px;
+}
+.wrap-radio {
+	float: left;
+	margin-right: 20px;
+}
+.wrap-input label {
+	float: left;
+	width: 84px;
+	margin-right: 4px;
+	font-size: 14px;
+	text-align: right;
+}
+.wrap-radio label {
+	width: auto;
+	margin: 0;
+	font-size: 12px;
+}
+.wrap-input input {
+	float: left;
+	width: 200px;
+	height: 30px;
+	_width: 210px;
+	_height: 32px;
+	*line-height: 30px;
+	padding-left: 8px;
+	border: 1px solid #d9d9d9;
+	margin-right: 10px;
+}
+.wrap-radio input {
+	width: 12px;
+	height: 12px;
+	padding: 0;
+	margin: 11px 5px 0 0;
+	border: 0;
+}
+.wrap-input span {
+	float: left;
+	color: #999;
+}
+.wrap-textarea {
+	height: auto;
+}
+.wrap-textarea textarea {
+	float: left;
+	width: 632px;
+	height: 89px;
+	_width: 662px;
+	_height: 105px;
+	padding: 7px 14px;
+	border: 1px solid #d9d9d9;
+	resize: vertical;
+}
+.contact-tip {
+	margin: -9px 0 12px;
+	text-indent: 88px;
+	color: #ff9913;
+}
+.submit {
+	float: left;
+	width: 158px;
+	height: 38px;
+	_width: 160px;
+	_height: 40px;
+	margin: 20px 0 0 88px;
+	border-radius: 3px;
+	cursor: pointer;
+}

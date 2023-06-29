@@ -1,0 +1,261 @@
+/*广告*/
+.advert {
+	clear: left;
+	padding-top: 30px;
+}
+
+/*推荐游戏/最新开服/热门游戏*/
+.game-rec .block, .game-new .block, .game-hot .block {
+	width: 283px;
+	height: 243px;
+	_width: 285px;
+	_height: 245px;
+}
+.game-hot .block {
+	height: 128px;
+}
+
+/*热门排行/精品推荐/快速通道*/
+.game-rank .block, .fine-rec .block, .fast-way .block {
+	height: 278px;
+}
+.game-rank .block, .fast-way .block {
+	width: 258px;
+}
+.fine-rec .block {
+	width: 638px;
+}
+
+/*推荐礼包/客服中心*/
+.gift-rec .block, .custom-ser .block {
+	width: 918px;
+	height: 158px;
+}
+.custom-ser .block {
+	width: 258px;
+}
+
+.banner {
+	height: 380px;
+}
+.banner ul {
+	position: relative;
+	left: 50%;
+	margin-left: -960px;
+}
+
+/*友情链接*/
+.link .block {
+	overflow: hidden;
+	width: 1160px;
+	_width: 1200px;
+	height: 49px;
+	line-height: 49px;
+	padding: 0 19px;
+	margin-top: 30px;
+}
+.link a {
+	margin-right: 17px;
+}
+
+/*推荐游戏*/
+.game-rec .con {
+	width: 260px;
+	height: 205px;
+	_width: 273px;
+	_height: 233px;
+	padding: 30px 0 0 15px;
+	margin: 4px;
+	background-color: #FFF;
+}
+.game-rec .custom-btn {
+	display: block;
+	width: 98px;
+	height: 28px;
+	line-height: 28px;
+	margin-top: 15px;
+	border-radius: 14px;
+	text-align: center;
+	font-size: 14px;
+}
+.game-rec h3 {
+	font-size: 20px;
+	margin-top: 16px;
+}
+.game-rec p {
+	margin-top: 4px;
+	color: #999;
+}
+.game-rec .con div {
+	height: 13px;
+	line-height: 13px;
+	margin-top: 14px;
+}
+.game-rec .logo-home {
+	margin-left: 8px;
+}
+.game-rec .logo-gift {
+	margin-left: 5px;
+}
+
+/*热门游戏*/
+.game-hot .block a {
+	display: block;
+	height: 100%;
+	padding-left: 19px;
+
+	-webkit-transition: .3s linear;
+	transition: .3s linear;
+
+	background-position: 10px 0;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+}
+.game-hot .block a:hover {
+	text-decoration: none;
+	background-position: 0 0;
+}
+.game-hot .block div {
+	opacity: 0;
+	width: 68px;
+	height: 18px;
+	line-height: 18px;
+	margin-top: 15px;
+	border-radius: 14px;
+	text-align: center;
+
+	-webkit-transition: .3s linear;
+	transition: .3s linear;
+}
+.game-hot .block a:hover div {
+	opacity: 1;
+}
+.game-hot .block h3 {
+	padding-top: 14px;
+	font-size: 18px;
+}
+.game-hot .block p {
+	color: #999;
+}
+
+/*精品推荐*/
+.fine-rec .con {
+	padding: 19px 19px 0;
+}
+.fine-rec dl {
+	width: 100%;
+	height: 110px;
+}
+.fine-rec .splite {
+	border-top: 1px solid #d9d9d9;
+	margin: 10px 0;
+}
+.fine-rec dt {
+	position: relative;
+	float: left;
+	width: 270px;
+	height: 100%;
+}
+.fine-rec .bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background: rgba(0, 0, 0, .5);
+	background: #000\9;
+}
+.fine-rec dd {
+	overflow: hidden;
+	float: right;
+	width: 310px;
+}
+.fine-rec dd p {
+	line-height: 28px;
+}
+.fine-rec dd em {
+	margin-right: 6px;
+}
+.fine-rec dt a {
+	color: #FFF;
+}
+.fine-rec dt a.custom-btn {
+	float: right;
+	width: 78px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	margin: 10px 10px 0 0;
+	border-radius: 3px;
+}
+.fine-rec .logo-gift {
+	margin: 0 20px 0 10px;
+}
+
+/*快速通道*/
+.fast-way .con {
+	margin: -1px 0 0 -1px;
+}
+.fast-way a {
+	*display: inline;
+	float: left;
+	width: 100px;
+	height: 66px;
+	margin: 20px 0 0 20px;
+	background-image: url(../images/fast-way.png);
+	background-repeat: no-repeat;
+}
+.fast-way a:hover {
+	background-image: url(../images/fast-way-hover.png);
+}
+
+/*推荐礼包*/
+.gift-rec .con {
+	margin: -1px 0 0 -1px;
+}
+.gift-rec dl {
+	*display: inline;
+	float: left;
+	width: 280px;
+	height: 50px;
+	margin: 20px 0 0 20px;
+}
+.gift-rec dt {
+	overflow: hidden;
+	float: left;
+	width: 48px;
+	height: 48px;
+	border: 1px solid #b2b2b2;
+	border-radius: 3px;
+}
+.gift-rec dd h3 {
+	width: 158px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 14px;
+}
+.gift-rec dd {
+	position: relative;
+	float: right;
+	width: 220px;
+}
+.gift-rec dd p {
+	color: #999;
+}
+.gift-rec dd em {
+	color: #C00;
+}
+.gift-rec .custom-btns {
+	position: absolute;
+	top: 13px;
+	right: 0;
+	z-index: 1;
+	width: 48px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	border-radius: 3px;
+}

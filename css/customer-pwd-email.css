@@ -1,0 +1,6 @@
+.progress-nav {
+	background: #e7e7e7 url(../images/progress-email.jpg) no-repeat;
+}
+.progress-nav span {
+	padding: 0 4px 0 24px;
+}

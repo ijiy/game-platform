@@ -1,0 +1,291 @@
+/*重置与前置样式*/
+.clear {
+	zoom: 1;
+}
+.clear:after {
+	display: block;
+	content: '\200B';
+	height: 0;
+	clear: both;
+}
+
+.table-date	{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 999;
+	width: 230px;
+	background: #CCC;
+	font: 12px 'Microsoft YaHei', sans-serif;
+	text-align: center;
+	cursor: default;
+	color: #3A6EA5;
+}
+.table-date input {
+	color: #3A6EA5;
+	background: none;
+}
+
+/*年月*/
+.table-date .caption {
+	position: relative;
+	z-index: 1;
+	background: #3A6EA5;
+}
+
+/*年月的下拉框*/
+.table-date .select {
+	display: inline;
+	float: right;
+	position: relative;
+	width: 60px;
+	margin: 0 60px 0 0;
+}
+.table-date .select:hover {
+	box-shadow: inset 0 0 2px #000;
+}
+.table-date .select.fl {
+	float: left;
+	width: 40px;
+	margin: 0 0 0 60px;
+}
+.table-date .select ul {
+	display: none;
+	overflow: auto;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	max-height: 240px;
+	line-height: 18px;
+	background: #FFF;
+}
+.table-date .select li {
+	border: 1px solid transparent;
+}
+.table-date .select input {
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	padding: 0;
+	text-align: center;
+	color: #FFF;
+	border: 0;
+}
+.table-date select {
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 5px;
+	font-size: 12px;
+	background: none;
+	border: none;
+	color: #FFF;
+
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.table-date select:focus {
+	background: #000;
+}
+
+/*左右翻页*/
+.table-date .month-left, .table-date .month-right {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	width: 26px;
+	line-height: 26px;
+	cursor: pointer;
+	color: #FFF;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+
+	-webkit-transition: .1s;
+	transition: .1s;
+}
+.table-date .month-left {
+	left: 5px;
+}
+.table-date .month-left:hover {
+	text-shadow: -1px 1px 1px #000;
+
+	-webkit-transform: translateX(-2px);
+	transform: translateX(-2px);
+}
+.table-date .month-right:hover {
+	text-shadow: 1px 1px 1px #000;
+
+	-webkit-transform: translateX(2px);
+	transform: translateX(2px);
+}
+
+/*周*/
+.table-date .thead {
+	padding: 0 12px;
+}
+.table-date .thead li, .table-date .tbody li {
+	float: left;
+	width: 26px;
+	line-height: 22px;
+	border: 1px solid transparent;
+}
+.table-date .thead ul {
+	padding: 0 5px;
+	border-bottom: 1px solid #3A6EA5;
+	font-weight: bold;
+}
+.table-date .thead li {
+	line-height: 26px;
+}
+
+/*日*/
+.table-date .tbody {
+	height: 144px;
+	padding: 0 17px;
+}
+
+/*底部*/
+.table-date .tfoot {
+	padding: 5px;
+}
+
+/*时间*/
+.table-date .wrap-time {
+	position: relative;
+	height: 18px;
+}
+.table-date .wrap-time-input {
+	float: left;
+	width: 110px;
+	border: 1px solid #3A6EA5;
+}
+.table-date .wrap-time, .table-date .wrap-time label, .table-date .wrap-time input, .table-date .wrap-time i {
+	float: left;
+	line-height: 18px;
+}
+.table-date .wrap-time label {
+	width: 28px;
+	margin-right: 4px;
+}
+.table-date .wrap-time i {
+	line-height: 16px;
+	font-style: normal;
+}
+.table-date .wrap-time input {
+	width: 26px;
+	height: 14px;
+	line-height: 15px;
+	text-align: center;
+	border: 0;
+	padding: 2px 0;
+}
+.table-date .wrap-time input:hover {
+	box-shadow: inset 0 0 2px #000;
+}
+.table-date .wrap-time input::selection, .table-date .select input::selection {
+	background: #000;
+	color: #FFF;
+}
+.table-date .time-min, .table-date .time-max {
+	float: right;
+	width: 12px;
+}
+.table-date .time-min {
+	float: left;
+	border-right: 1px solid #3A6EA5;
+}
+.table-date .time-max {
+	border-left: 1px solid #3A6EA5;
+}
+
+.table-date .time-con {
+	display: none;
+	position: absolute;
+	left: 0;
+	bottom: 100%;
+	z-index: 1;
+	width: 220px;
+	background: #FFF;
+}
+.table-date .time-con a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	cursor: pointer;
+	color: #FFF;
+	font-size: 1.2em;
+
+	-webkit-transition: .1s;
+	transition: .1s;
+}
+.table-date .time-con a:hover {
+	text-shadow: 1px 1px 1px #000;
+
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.table-date .time-con h4 {
+	height: 22px;
+	line-height: 22px;
+	background: #3A6EA5;
+	color: #FFF;
+	font-size: 12px;
+}
+.table-date .time-con li {
+	float: left;
+	width: 20px;
+	line-height: 16px;
+	border: 1px solid transparent;
+}
+
+/*今天/确认*/
+.table-date .wrap-btn {
+	float: right;
+	width: 61px;
+}
+.table-date .wrap-btn input {
+	display: inline;
+	float: left;
+	width: 28px;
+	height: 20px;
+	line-height: 18px;
+	padding: 0;
+	border: 1px solid #3A6EA5;
+	cursor: pointer;
+}
+.table-date .wrap-btn .update-time {
+	display: inline;
+	margin-left: 5px;
+	background: #3A6EA5;
+	color: #FFF;
+}
+
+/*今天*/
+.table-date li.now {
+	border: 1px dotted #3A6EA5;
+}
+
+/*上/下一个月*/
+.table-date li.next, .table-date li.prev {
+	color: darkgrey;
+}
+
+/*日-选中*/
+.table-date li.pick {
+	background: #3A6EA5;
+	color: #FFF;
+}
+
+/*日-hover*/
+.table-date .time-con li:hover, .table-date .tbody li:hover, .table-date .select li:hover {
+	border: 1px solid #3A6EA5;
+}

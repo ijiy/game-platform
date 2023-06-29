@@ -1,0 +1,81 @@
+/*重置样式*/
+body, dl, dd, p, form, input, ol, ul, h1, h2, h3, h4, h5, h6, pre {
+	margin: 0;
+}
+ol, ul, input, td {
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6, strong, b, label, table {
+	font-weight: normal;
+	font-size: inherit;
+}
+em, i {
+	font-style: normal;
+	font-size: inherit;
+}
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-webkit-tap-highlight-color: transparent;
+}
+li {
+	list-style: none;
+}
+button, input, textarea, select {
+	background: none;
+	color: inherit;
+	border: 0;
+	vertical-align: middle;
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+	-webkit-appearance: none;
+	appearance: none;
+}
+img {
+	display: block;
+	width: 100%;
+	border: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: underline;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clear {
+	*zoom: 1;
+}
+.clear:after {
+	display: block;
+	content: '\200B';
+	height: 0;
+	clear: both;
+}
+::-webkit-input-placeholder {
+	color: #999;
+}
+::-moz-placeholder {
+	color: #999;
+	opacity: 1;
+}
+:-moz-placeholder {
+	color: #999;
+	opacity: 1;
+}
+:-ms-input-placeholder {
+	color: #999;
+}
+.placeholder {
+	color: #999;
+}
+p.ellipsis, .ellipsis p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

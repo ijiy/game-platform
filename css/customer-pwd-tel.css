@@ -1,0 +1,28 @@
+.progress-nav {
+	background: #e7e7e7 url(../images/progress-tel.jpg) no-repeat;
+}
+.wrap-code a {
+	_display: inline;
+	float: left;
+	width: 98px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 10px;
+	border-radius: 16px;
+	font-size: 14px;
+}
+.wrap-code a.on {
+	color: #FFF;
+	background: #b7b7b7;
+	background: -webkit-linear-gradient(top, #bcbcbc, #b0b0b0);
+	background: -moz-linear-gradient(top, #bcbcbc, #b0b0b0);
+	background: -ms-linear-gradient(top, #bcbcbc, #b0b0b0);
+	*background: #b7b7b7;
+	border-color: #9b9b9b;
+	cursor: default;
+}
+.wrap-code input {
+	width: 120px;
+	_width: 130px;
+}

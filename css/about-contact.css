@@ -1,0 +1,22 @@
+.user-article .coo .fl {
+	width: 230px;
+	padding-top: 10px;
+	margin: 0 10px;
+	text-align: center;
+}
+.user-article .coo h3 {
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0fa6e3;
+}
+.user-article .coo p {
+	line-height: 24px;
+}
+.user-article .coo .fl div {
+	height: 156px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 60%;
+	border: 1px solid #ededed;
+}

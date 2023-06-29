@@ -1,0 +1,61 @@
+.hide {
+	display: none;
+}
+.progress-nav {
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	font-size: 14px;
+}
+.progress-nav .on {
+	color: #FFF;
+}
+.progress-nav span {
+	padding: 0 20px 0 24px;
+}
+.progress-nav.p-1 {
+	background-position: 0 -40px;
+}
+.progress-nav.p-2 {
+	background-position: 0 -80px;
+}
+.progress-main {
+	padding-top: 38px;
+}
+.wrap-input {
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 20px;
+}
+.wrap-input label {
+	float: left;
+	width: 217px;
+	margin-right: 4px;
+	font-size: 14px;
+	text-align: right;
+}
+.wrap-input input {
+	float: left;
+	width: 230px;
+	height: 30px;
+	_width: 240px;
+	_height: 32px;
+	_line-height: 32px;
+	padding-left: 8px;
+	border: 1px solid #d9d9d9;
+}
+.wrap-input span {
+	margin-left: 10px;
+	color: #999;
+}
+.custom-btn {
+	float: left;
+	width: 158px;
+	height: 38px;
+	_width: 160px;
+	_height: 40px;
+	margin: 20px 0 0 221px;
+	color: #FFF;
+	border-radius: 3px;
+	font-size: 14px;
+}

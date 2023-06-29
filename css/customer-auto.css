@@ -1,0 +1,101 @@
+.wrap-input {
+	height: 40px;
+	line-height: 40px;
+	margin: 40px 0;
+}
+.wrap-input label {
+	float: left;
+	width: 232px;
+	margin-right: 6px;
+	font-size: 14px;
+	text-align: right;
+}
+.wrap-input input.text {
+	float: left;
+	width: 290px;
+	height: 38px;
+	_width: 300px;
+	_height: 40px;
+	*line-height: 38px;
+	padding-left: 8px;
+	margin-right: 20px;
+	border: 1px solid #d9d9d9;
+}
+.wrap-input input.submit {
+	float: left;
+	width: 98px;
+	height: 38px;
+	_width: 100px;
+	_height: 40px;
+	*line-height: 38px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.nav-tab {
+	height: 49px;
+	line-height: 49px;
+	border-bottom: 1px dotted #d9d9d9;
+}
+.nav-tab b {
+	float: left;
+	width: 1px;
+	height: 27px;
+	margin-top: 11px;
+	background: #d9d9d9;
+	background: -webkit-linear-gradient(top, transparent, #d9d9d9, transparent);
+	background: -moz-linear-gradient(top, transparent, #d9d9d9, transparent);
+	background: -ms-linear-gradient(top, transparent, #d9d9d9, transparent);
+	*background: #d9d9d9;
+}
+.nav-tab a {
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+.nav-tab a.on, .nav-tab a:hover {
+	color: #0fa6e3;
+	text-decoration: none;
+}
+.nav-tab a.on i, .nav-tab a:hover i {
+	display: block;
+	width: 9px;
+	height: 5px;
+	margin: -14px auto 0;
+	background: url(../images/arrow-b.png);
+}
+.con-tab {
+	display: none;
+}
+.con-tab.show {
+	display: block;
+}
+.con-tab .block {
+	width: 748px;
+}
+.con-tab ul {
+	overflow-x: hidden;
+	float: left;
+	position: relative;
+	width: 708px;
+	height: 300px;
+	padding: 9px 0 10px;
+	margin-left: 20px;
+}
+.con-tab li {
+	width: 100%;
+	line-height: 41px;
+	border-bottom: 1px dotted #d9d9d9;
+}
+.con-tab li:before {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	content: '';
+	vertical-align: middle;
+	width: 5px;
+	height: 5px;
+	margin-right: 10px;
+	background: #d9d9d9;
+	border-radius: 3px;
+}

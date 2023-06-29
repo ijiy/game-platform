@@ -1,0 +1,818 @@
+body {
+	text-align: center;
+	background: #f4f4f4;
+}
+.footer {
+	margin-top: 40px;
+}
+.custom-btn {
+	border-radius: 3px;
+}
+
+.pay-header {
+	height: 92px;
+	border-top: 1px solid #d9d9d9;
+	background: url(../images/nav-bg.png) repeat-x 0 -4px;
+}
+.pay-header a.fl {
+	margin-top: 12px;
+}
+.pay-header a.fl span {
+	width: 144px;
+	height: 58px;
+	background: url(../images/pay/menle.png) no-repeat;
+}
+.pay-header a.fl b {
+	_display: inline;
+	float: left;
+	width: 1px;
+	height: 20px;
+	margin: 24px 15px 0 17px;
+	background: #d9d9d9;
+}
+.pay-header a.fl h1 {
+	float: left;
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666;
+}
+.pay-header .fr {
+	margin-top: 44px;
+	font-size: 12px;
+}
+.pay-header .fr a {
+	width: auto;
+	margin: 0 5px;
+	color: #17baf5;
+}
+.pay-header .fr a:hover {
+	background: none;
+	color: #17baf5;
+	text-decoration: underline;
+}
+.pay-header .fr strong {
+	margin-right: 10px;
+}
+
+/*选中(蓝底白字)*/
+.pick-on {
+	color: #FFF;
+	background: #17baf5;
+}
+
+/*点击下拉的按钮禁止选中, IE6免疫*/
+.pick-box {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	cursor: pointer;
+}
+
+/*向下箭头*/
+.arrow-b {
+	display: inline;
+	float: right;
+	width: 9px;
+	height: 5px;
+	font-size: 0;
+	background: url(../images/pay/arrow-b.png) no-repeat;
+}
+.pick-box:hover .arrow-b {
+	background: url(../images/pay/arrow-b-on.png) no-repeat;
+}
+
+/*向上箭头*/
+.arrow-t {
+	position: absolute;
+	top: -6px;
+	left: 64px;
+	width: 9px;
+	height: 6px;
+	font-size: 0;
+	background: url(../images/pay/arrow-t.png) no-repeat;
+}
+
+/*正确 错误*/
+.yes, .wrong {
+	float: left;
+	font-size: 12px;
+	color: #70ca74;
+}
+.wrong {
+	color: #ff4c4d;
+}
+.yes i, .wrong i {
+	float: left;
+	width: 16px;
+	height: 16px;
+	font-size: 0;
+	margin-right: 5px;
+	background: url(../images/pay/yes.png) no-repeat;
+}
+.wrong i {
+	background: url(../images/pay/wrong.png) no-repeat;
+}
+
+/*蓝色字*/
+.pick-box span strong {
+	color: #17baf5;
+}
+
+.user-account span.yes, .user-account span.wrong, .game-list-con ul.show, .pay-list .pay-list-on i, .pay-list ul.show, .cheap-list-on .pick-box b, .service-all ul.show, .cheap-list ul.show {
+	display: block;
+}
+
+.user-state {
+	float: right;
+	margin-top: 54px;
+}
+.user-state a {
+	color: #17baf5;
+	margin: 0 2px;
+}
+
+.pay-content {
+	width: 900px;
+	_width: 1000px;
+	margin: 16px auto 0;
+	padding: 35px 50px 46px;
+	background: #FFF;
+	border-radius: 3px;
+}
+.pay-content label {
+	font-size: 14px;
+}
+.user-section, .pay-section, .set-section {
+	border-bottom: 1px dashed #d7d7d7;
+}
+.user-section {
+	padding-bottom: 30px;
+}
+.pay-section {
+	padding: 30px 0 20px;
+}
+.set-section {
+	padding: 25px 0 30px;
+}
+.submit-order {
+	float: left;
+	display: inline;
+	width: 230px;
+	height: 50px;
+	line-height: 50px;
+	margin: 30px 0 0 84px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.pay-content label {
+	float: left;
+	width: 84px;
+	text-align: left;
+	line-height: 40px;
+}
+
+/*充值账号*/
+.user-account, .user-account label {
+	line-height: 40px;
+}
+.user-account input {
+	float: left;
+	width: 140px;
+	height: 40px;
+	*line-height: 40px;
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.user-account a {
+	float: left;
+	margin-right: 20px;
+	font-size: 12px;
+	color: #17baf5;
+}
+.user-account span {
+	display: none;
+}
+.user-account span i {
+	margin-top: 12px;
+}
+
+/*充值到哪*/
+.user-plateform, .user-service {
+	margin-top: 30px;
+}
+.pay-to-game, .pay-to-nut, .select-game, .select-service, .service-nut p {
+	float: left;
+	width: 138px;
+	height: 38px;
+	_width: 140px;
+	_height: 40px;
+	line-height: 38px;
+	_line-height: 40px;
+	border: 1px solid #d9d9d9;
+	font-size: 14px;
+}
+.user-plateform div {
+	cursor: pointer;
+	border-radius: 3px;
+}
+.user-plateform .custom-btn {
+	border-color: #1097ce;
+}
+.user-plateform .pick-on {
+	border: none;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+}
+.pay-to-game, .select-game {
+	margin-right: 10px;
+}
+.user-service .cheap-on {
+	width: 136px;
+	height: 36px;
+	_width: 140px;
+	_height: 40px;
+	border: 2px solid #17baf5;
+}
+.user-service .cheap-on .pick-box input {
+	_height: 36px;
+	_line-height: 36px;
+}
+
+/*游戏区服*/
+.user-service .pick-box input {
+	float: left;
+	width: 120px;
+	height: 38px;
+	line-height: 38px\9;
+	text-align: center;
+	outline: none;
+	color: #17baf5;
+	cursor: pointer;
+}
+.cheap-on .pick-box input {
+	width: 118px;
+	line-height: 38px;
+}
+.user-service .pick-box input::-webkit-input-placeholder {
+	color: #333;
+}
+.user-service .pick-box input::-moz-placeholder {
+	color: #333;
+	opacity: 1;
+}
+.user-service .pick-box input:-moz-placeholder {
+	color: #333;
+	opacity: 1;
+}
+.user-service .pick-box input::-ms-input-placeholder {
+	color: #333;
+}
+.user-service .pick-box .arrow-b {
+	margin: 17px 9px 0 0;
+}
+.cheap-on .pick-box .arrow-b {
+	margin: 16px 8px 0 0;
+}
+.select-game, .select-service {
+	position: relative;
+	z-index: 1;
+}
+.user-service {
+	line-height: 40px;
+}
+.select-service {
+	margin-right: 20px;
+}
+.service-error {
+	display: none;
+}
+.service-error i {
+	margin-top: 12px;
+}
+.service-error a {
+	color: #17baf5;
+	font-size: 12px;
+}
+.service-error a:hover {
+	text-decoration: underline;
+}
+
+/*选择游戏列表*/
+.game-list, .service-list {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: -1px;
+	z-index: 10;
+	width: 550px;
+	_width: 552px;
+	border: 1px solid #d9d9d9;
+	background: #FFF;
+	font-size: 12px;
+}
+.game-list-nav, .service-list-nav {
+	height: 49px;
+}
+.game-list-nav span, .service-list-nav span {
+	display: inline;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 7px;
+	margin: 9px 0 0 9px;
+	cursor: pointer;
+}
+.game-list-nav input {
+	display: inline;
+	float: right;
+	width: 143px;
+	height: 28px;
+	_width: 150px;
+	_height: 30px;
+	*line-height: 28px;
+	margin: 9px 9px 0 0;
+	padding-left: 5px;
+	border: 1px solid #d9d9d9;
+	font-size: 12px;
+}
+
+.game-list-con ul {
+	display: none;
+	padding: 10px;
+}
+.game-list-con li, .service-list-con li {
+	float: left;
+	line-height: 39px;
+	cursor: pointer;
+}
+.game-list-con li:hover, .service-list-con li:hover {
+	color: #17baf5;
+}
+.game-list-con li {
+	width: 105px;
+	height: 30px;
+	line-height: 30px;
+}
+.game-list-con .latest {
+	padding-right: 0;
+}
+.game-list-con .latest li {
+	position: relative;
+	width: 168px;
+	height: 118px;
+	_width: 170px;
+	_height: 120px;
+	margin: 0 10px 10px 0;
+	border: 1px solid #d9d9d9;
+}
+.game-list-con .latest li:hover {
+	color: initial;
+}
+.game-list-con .latest img {
+	width: 136px;
+	margin: 12px auto 0;
+}
+.game-list-con .latest p {
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	width: 100%;
+}
+.game-list-con .latest strong {
+	color: #17baf5;
+}
+.game-list-con .latest div {
+	display: none;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	z-index: 1;
+	width: 166px;
+	height: 116px;
+	border: 2px solid #17baf5;
+}
+.game-list-con .cheap-latest div {
+	display: block;
+}
+.game-list-con .latest i {
+	position: absolute;
+	bottom: -1px;
+	right: -1px;
+	width: 15px;
+	height: 15px;
+	font-size: 0;
+	background: url(../images/pay/mode-list-on.png) no-repeat;
+}
+
+.game-list-none {
+	display: none;
+	line-height: 154px;
+}
+.game-list-none strong {
+	color: #17baf5;
+}
+
+/*选择区服列表*/
+.service-list {
+	width: auto !important;
+	min-width: 368px;
+	width: 368px;
+}
+.service-list-con {
+	border-top: 1px solid #d9d9d9;
+}
+.service-list-nav {
+	width: 100%;
+	height: 44px;
+}
+
+/*最近玩过*/
+.service-last {
+	overflow: auto;
+	width: 548px;
+	max-height: 159px;
+}
+.service-last li {
+	display: inline;
+	margin-left: 20px;
+}
+
+/*输入区服*/
+.service-input {
+	display: none;
+	overflow: hidden;
+	width: 330px;
+	_width: 368px;
+	padding: 19px;
+}
+.service-input input {
+	float: left;
+	width: 229px;
+	height: 38px;
+	_width: 230px;
+	_height: 40px;
+	*line-height: 38px;
+	padding-left: 9px;
+	margin-right: 10px;
+	border: 1px solid #d9d9d9;
+}
+.submit-service {
+	float: left;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+}
+.service-input-tip {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+.service-input-list a {
+	margin-right: 10px;
+}
+
+/*全部区服*/
+.service-all, .service-all-order {
+	width: auto !important;
+	min-width: 478px;
+	width: 478px;
+}
+.service-all {
+	display: none;
+}
+.service-all-order span {
+	float: left;
+	display: inline;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 6px;
+	margin: 5px 0 0 9px;
+	cursor: pointer;
+}
+.service-all ul {
+	display: none;
+	padding: 5px 20px 0;
+}
+.service-all li {
+	width: 109px;
+	height: 30px;
+	line-height: 30px;
+}
+
+/*充值坚果*/
+.service-nut {
+	display: none;
+	margin-top: 30px;
+}
+.service-nut p {
+	width: auto;
+	padding: 0 8px;
+	border: 1px solid #d9d9d9;
+}
+
+/*隐藏坚果支付*/
+.toggle-nut {
+	display: none;
+}
+
+/*充值方式*/
+.pay-mode label {
+	line-height: 48px;
+}
+.pay-mode ul {
+	width: 816px;
+	float: left;
+	background: #f6f7f9;
+	border-bottom: 2px solid #17baf5;
+	font-size: 14px;
+}
+.pay-mode ul li {
+	float: left;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 36px;
+	cursor: pointer;
+}
+.pay-list {
+	padding: 20px 0 0 84px;
+}
+.pay-list ul {
+	float: left;
+	display: none;
+}
+.pay-list li {
+	float: left;
+	margin: 0 10px 10px 0;
+	cursor: pointer;
+	background-image: url(../images/pay/pay.jpg);
+	background-repeat: no-repeat;
+}
+.pay-nut-pwd li {
+	background: none;
+	margin: 0;
+	cursor: default;
+}
+.pay-nut-pwd li p {
+	text-align: left;
+	text-indent: 2em;
+}
+.pay-nut-pwd li b, .pay-nut-pwd li span {
+	color: #f60;
+}
+.pay-nut-pwd li b, .pay-nut-pwd li strong {
+	font-weight: bold;
+	font-size: 14px;
+}
+.pay-nut-pwd li strong, .pay-nut-pwd li input {
+	float: left;
+}
+.pay-nut-pwd li input {
+	width: 140px;
+	height: 26px;
+	*line-height: 26px;
+	padding-left: 8px;
+	border: 1px solid #d9d9d9;
+}
+.pay-nut-pwd li a {
+	margin-left: 10px;
+}
+.pay-list li div {
+	position: relative;
+	width: 138px;
+	height: 38px;
+	_width: 140px;
+	_height: 40px;
+	border: 1px solid #d9d9d9;
+}
+.pay-list .pay-list-on div {
+	width: 136px;
+	height: 36px;
+	_width: 140px;
+	_height: 40px;
+	border: 2px solid #17baf5;
+}
+.pay-list li i {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 15px;
+	height: 15px;
+	font-size: 0;
+	background: url(../images/pay/mode-list-on.png) no-repeat;
+}
+.pay-list li.bank-m {
+	font-size: 14px;
+	line-height: 38px;
+	text-indent: 20px;
+	color: #999;
+	background: url(../images/pay/add.png) no-repeat 34px center;
+}
+.pay-list li.show-bank-m {
+	display: none;
+}
+
+.pay-tip {
+	padding-top: 10px;
+	text-align: left;
+	text-indent: 84px;
+}
+.pay-tip strong {
+	color: #17baf5;
+}
+.pay-tip em {
+	margin-left: 10px;
+	color: #ff4c4d;
+}
+
+/*充值套餐*/
+.select-cheap, .enter-tel {
+	float: left;
+	width: 228px;
+	height: 38px;
+	_width: 230px;
+	_height: 40px;
+	line-height: 38px;
+	margin-right: 8px;
+	border: 1px solid #d9d9d9;
+}
+.enter-tel {
+	width: 213px;
+	_width: 230px;
+	padding-left: 15px;
+}
+.select-cheap {
+	position: relative;
+	font-size: 14px;
+}
+.set-tel {
+	margin-top: 20px;
+}
+.set-cheap p, .set-tel p {
+	float: left;
+	line-height: 40px;
+	font-size: 12px;
+}
+.set-cheap .arrow-b {
+	margin: 17px 8px 0 0;
+}
+.set-cheap .cheap-on {
+	width: 226px;
+	height: 36px;
+	line-height: 36px;
+	border: 2px solid #17baf5;
+}
+.set-cheap .em {
+	color: #70ca74;
+}
+.cheap-on .arrow-b {
+	background: url(../images/pay/arrow-b-on.png) no-repeat;
+}
+.cheap-list-on .pick-box {
+	color: #17baf5;
+}
+.select-cheap b {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 15px;
+	height: 15px;
+	font-size: 0;
+	background: url(../images/pay/mode-list-on.png) no-repeat;
+}
+
+/*充值套餐列表*/
+.cheap-list {
+	display: none;
+	overflow: auto;
+	position: absolute;
+	top: 38px;
+	left: -2px;
+	z-index: 1;
+	width: 226px;
+	height: 157px;
+	border: 2px solid #17baf5;
+	border-top: none;
+	background: #FFF;
+}
+.cheap-list ul {
+	display: none;
+	padding-top: 2px;
+}
+.cheap-list li {
+	line-height: 25px;
+	border-bottom: 1px dotted #d7d7d7;
+	cursor: pointer;
+}
+.cheap-list li:hover {
+	color: #17baf5;
+}
+
+/*弹窗*/
+.dialog-box {
+	display: none;
+	position: fixed;
+	*position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .6);
+}
+.dialog-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	*background: #000;
+	*filter: alpha(opacity=60);
+}
+.dialog-con {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 447px;
+	padding-bottom: 4px;
+	margin: -146px 0 0 -223.5px;
+	font-size: 14px;
+	background: #17baf5;
+}
+.dialog-con h3 {
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	text-align: left;
+}
+.dialog-con h3 i {
+	display: inline;
+	float: left;
+	width: 18px;
+	height: 19px;
+	margin: 11px 7px 0 12px;
+	background: url(../images/pay/info.png) no-repeat;
+}
+.dialog-close {
+	display: inline;
+	float: right;
+	width: 15px;
+	height: 15px;
+	margin: 13px 12px 0 0;
+	background: url(../images/pay/close.png) no-repeat;
+
+	-webkit-transition: .5s ease-out;
+	transition: .5s ease-out;
+}
+.dialog-close:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.dialog-article {
+	width: 439px;
+	padding-bottom: 33px;
+	margin: 0 auto;
+	background: #FFF;
+}
+.dialog-article ul {
+	padding: 21px 0 22px 45px;
+	text-align: left;
+}
+.dialog-article li {
+	line-height: 30px;
+}
+.pay-confirm, .pay-update {
+	float: left;
+	width: 140px;
+	height: 43px;
+	_width: 142px;
+	_height: 45px;
+	*line-height: 43px;
+	cursor: pointer;
+}
+.pay-confirm {
+	display: inline;
+	margin: 0 20px 0 70px;
+}
+.pay-update {
+	color: #FFF;
+	background: #a5a5a5;
+	background: -webkit-linear-gradient(top, #bcbcbc, #949494);
+	background: -moz-linear-gradient(top, #bcbcbc, #949494);
+	background: -ms-linear-gradient(top, #bcbcbc, #949494);
+	*background: #a5a5a5;
+	border: 1px solid #8b8b8b;
+	border-radius: 3px;
+	box-shadow: inset 0 0 1px #FFF;
+}
+.pay-where em, .pay-cheap span {
+	color: #70ca74;
+}
+.pay-cheap span {
+	font-weight: bold;
+}

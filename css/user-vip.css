@@ -1,0 +1,95 @@
+.con-vip {
+	padding-right: 20px;
+}
+.con-vip dl {
+	height: 160px;
+}
+.con-vip dt {
+	float: left;
+	width: 120px;
+	height: 100%;
+	background-image: url(../images/vip-ico.png);
+	background-repeat: no-repeat;
+	background-position-x: 3px;
+}
+.con-vip dd {
+	float: right;
+	width: 630px;
+	padding-top: 41px;
+}
+.con-vip dd p span {
+	font-size: 16px;
+}
+.con-vip dd p em {
+	float: right;
+	color: #ff9913;
+}
+.con-vip dd div {
+	margin-top: 20px;
+}
+.con-vip dd strong {
+	float: left;
+	margin-right: 4px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.con-vip dd div span {
+	float: left;
+	padding: 0 10px;
+	margin-right: 10px;
+	color: #FFF;
+}
+
+.bg-b081b9 {
+	background: #b081b9;
+}
+.bg-898d9d {
+	background: #898d9d;
+}
+.bg-77b167 {
+	background: #77b167;
+}
+.bg-c59b9b {
+	background: #c59b9b;
+}
+.bg-b6ab5e {
+	background: #b6ab5e;
+}
+.bg-74bad8 { 
+	background: #74bad8; 
+}
+.bg-feba10 {
+	background: #feba10;
+}
+.bg-fd9155 {
+	background: #fd9155;
+}
+
+.con-vip dd div .custom-btns {
+	float: right;
+	width: 88px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 12px;
+}
+
+.splite-b {
+	position: relative;
+	height: 0;
+	padding-left: 50px;
+	font-size: 0;
+}
+.splite-b i {
+	display: block;
+	font-size: 0;
+	border-top: 1px dotted #d9d9d9;
+}
+.splite-b b {
+	position: absolute;
+	top: -36px;
+	left: 50px;
+	width: 1px;
+	height: 69px;
+	background: #d9d9d9;
+}

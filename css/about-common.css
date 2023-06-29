@@ -1,0 +1,6 @@
+.user-aside li a {
+	background-image: url(../images/about-list.png);
+}
+.user-aside li a:hover, .user-aside li a.on {
+	background-image: url(../images/about-list-hover.png);
+}

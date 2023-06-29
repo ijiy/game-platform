@@ -1,0 +1,17 @@
+.section {
+	position: relative;
+	min-height: 430px;
+	margin-bottom: -20px;
+}
+.login-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: 100%;
+}
+.login-box {
+	top: 50%;
+	margin-top: -174px;
+	box-shadow: none;
+}

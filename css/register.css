@@ -1,0 +1,150 @@
+.section {
+	padding: 42px 0 40px;
+}
+.article {
+	height: 680px;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+	background: url(../images/register.jpg) no-repeat left center;
+}
+.con-register {
+	_display: inline;
+	float: right;
+	width: 570px;
+	margin-right: 19px;
+	padding-top: 30px;
+}
+.con-register form {
+	padding-top: 40px;
+}
+.con-tab {
+	display: none;
+}
+.con-tab.show {
+	display: block;
+}
+
+.nav-tab {
+	height: 38px;
+	line-height: 38px;
+	font-size: 16px;
+	border-bottom: 2px solid #d9d9d9;
+}
+.nav-tab a {
+	position: relative;
+	float: left;
+	width: 90px;
+	margin-right: 68px;
+	text-align: center;
+}
+.nav-tab a span {
+	padding-left: 26px;
+	background-image: url(../images/logo-register.png);
+	background-repeat: no-repeat;
+	background-position: 2px -8px;
+}
+.nav-tab a i {
+	display: none;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 90px;
+	height: 6px;
+	font-size: 0;
+	background: url(../images/register-bottom-arrow.png) no-repeat;
+}
+.nav-tab a:hover, .nav-tab a.on {
+	color: #0fa6e3;
+}
+.nav-tab a:hover i, .nav-tab a.on i {
+	display: block;
+}
+.nav-tab a:hover span, .nav-tab a.on span {
+	background-image: url(../images/logo-register-hover.png);
+}
+
+.wrap-input {
+	overflow: hidden;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+.wrap-input label {
+	float: left;
+	width: 75px;
+	margin-right: 3px;
+	font-size: 14px;
+	text-align: right;
+}
+.wrap-input input {
+	float: left;
+	width: 200px;
+	height: 38px;
+	_width: 210px;
+	_height: 40px;
+	_line-height: 40px;
+	padding-left: 8px;
+	margin-right: 10px;
+	border: 1px solid #d9d9d9;
+}
+.tel-code input {
+	width: 90px;
+	_width: 100px;
+}
+.wrap-input span {
+	float: left;
+	color: #999;
+}
+.tel-code strong {
+	float: left;
+	width: 103px;
+	line-height: 38px;
+	border: 1px solid #d9d9d9;
+	text-align: center;
+	color: #333;
+	cursor: pointer;
+}
+
+.tel-tip {
+	margin: -18px 0 11px 78px;
+	color: #666;
+}
+
+.safe-tip {
+	line-height: 40px;
+	margin: 0 0 20px -10px;
+}
+.safe-tip strong {
+	font-size: 16px;
+	margin-right: 14px;
+}
+.safe-tip span {
+	color: #ff9913;
+}
+
+.read-tip {
+	margin: -8px 0 0 78px;
+	*margin-left: 74px;
+}
+.read-tip label {
+	color: #999;
+}
+.read-tip input {
+	margin-right: 4px;
+}
+.read-tip a {
+	margin-left: 4px;
+	color: #03b4f5;
+}
+
+.custom-btn {
+	width: 158px;
+	height: 38px;
+	_width: 160px;
+	_height: 40px;
+	margin: 34px 0 0 78px;
+	border-radius: 3px;
+	font-size: 16px;
+	cursor: pointer;
+	outline: none;
+}

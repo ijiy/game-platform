@@ -1,0 +1,131 @@
+.user-rec {
+	padding-bottom: 20px;
+}
+.user-rec .block {
+	padding: 19px 4px 19px 19px;
+}
+.user-rec dl {
+	width: 340px;
+}
+.user-rec .block dt {
+	overflow: hidden;
+	width: 78px;
+	height: 78px;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+}
+.user-rec .block dd {
+	position: relative;
+	width: 240px;
+}
+.user-rec .block dd h3 {
+	font-size: 18px;
+	line-height: 18px;
+}
+.user-rec .block dd p {
+	line-height: 36px;
+	color: #666;
+}
+.user-rec .block em {
+	color: #C00;
+}
+.user-rec .block strong {
+	position: absolute;
+	top: -30px;
+	right: 5px;
+	z-index: 1;
+}
+.user-rec .block .custom-btns {
+	display: block;
+	width: 86px;
+	height: 24px;
+	line-height: 24px;
+	margin-left: -3px;
+	border-radius: 12px;
+	text-align: center;
+}
+.user-game {
+	width: 750px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.user-game dl {
+	height: 130px;
+	padding: 20px 0;
+	border-top: 1px solid #d9d9d9;
+}
+.user-game dt {
+	position: relative;
+	overflow: hidden;
+	width: 253px;
+	height: 128px;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+}
+.user-game dt .bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background: rgba(0, 0, 0, .5);
+	background: #000\9;
+}
+.user-game dt a {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
+	margin: 0 8px;
+	color: #FFF;
+}
+.user-game dd {
+	width: 475px;
+}
+.user-game dd h3 {
+	line-height: 37px;
+	border-bottom: 1px solid #d9d9d9;
+	font-size: 18px;
+}
+.user-game dd h3 p {
+	font-size: 12px;
+}
+.user-game dd h3 p em {
+	color: #C00;
+}
+.user-game dd h3 p a {
+	margin-left: 20px;
+	color: #0fa6e3;
+}
+.user-game dd h3 p b {
+	font-family: "宋体";
+	color: #0fa6e3;
+	margin-left: 6px;
+}
+.user-game dd .link-hover {
+	padding: 10px 0 6px;
+}
+.user-game dd .link-hover a {
+	float: left;
+	width: 88px;
+	height: 24px;
+	line-height: 24px;
+	margin-right: 5px;
+	text-align: center;
+	border: 1px solid #d9d9d9;
+	border-radius: 12px;
+	cursor: default;
+}
+.user-game dd div.fl {
+	width: 370px;
+}
+.user-game dd .custom-btn {
+	width: 98px;
+	height: 28px;
+	line-height: 28px;
+	margin-top: 20px;
+	border-radius: 14px;
+	text-align: center;
+}

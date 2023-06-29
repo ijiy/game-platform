@@ -1,0 +1,46 @@
+table td {
+	line-height: 40px;
+}
+tbody {
+	color: #333;
+}
+tbody em {
+	color: #666;
+}
+tbody strong {
+	float: right;
+	width: 46px;
+	height: 23px;
+	line-height: 23px;
+	background: #77b167;
+	margin: 9px 10px 0 14px;
+	color: #FFF;
+	cursor: default;
+	text-align: center;
+	text-indent: 0;
+}
+tbody span {
+	color: #999;
+}
+tbody a {
+	text-decoration: underline;
+}
+tbody .on a {
+	color: #0fa6e3;
+}
+tbody p {
+	line-height: 26px;
+	text-align: left;
+	text-indent: 94px;
+}
+.next {
+	display: none;
+}
+.show {
+	display: table-row;
+}
+.td-indent {
+	text-align: left;
+	text-indent: 20px;
+	word-break: break-all;
+}

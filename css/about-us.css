@@ -1,0 +1,12 @@
+.user-article .con {
+	padding: 13px 20px 35px 0;
+}
+.user-article .con h3 {
+	padding-top: 22px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.user-article .con p {
+	line-height: 24px;
+	color: #666;
+}

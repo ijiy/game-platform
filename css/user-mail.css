@@ -1,0 +1,94 @@
+.con {
+	padding-right: 20px;
+}
+.nav-btn input {
+	float: left;
+	margin: 9px 0 0 14px;
+	_margin-left: 10px;
+}
+.nav-btn span {
+	display: inline;
+	float: left;
+	height: 28px;
+	padding: 0 17px;
+	margin-left: 10px;
+	background: #f7f7f7;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+	color: #BBB;
+	cursor: default;
+}
+.nav-btn.on span {
+	color: #333;
+	cursor: pointer;
+}
+
+tbody td {
+	border-right: 0;
+}
+td.info-list {
+	line-height: 40px;
+	border-left: none;
+	border-right: 1px solid #d9d9d9;
+}
+td.info-list a {
+	color: #0fa6e3;
+}
+td.info-list span {
+	float: left;
+	width: 99px;
+	color: #999;
+}
+td.info-list h3 {
+	float: left;
+	width: 408px;
+	text-align: left;
+	text-indent: 20px;
+}
+td.info-list .code {
+	color: #C00;
+}
+td.info-list p, td.info-list .info-short {
+	display: none;
+}
+td.info-list h3, td.info-list .info-state {
+	color: #666;
+}
+td.info-list p {
+	clear: left;
+	width: 570px;
+	margin: 0 0 7px 40px;
+	text-align: left;
+}
+td.info-list .info-short {
+	float: right;
+	width: 99px;
+}
+td.mark .info-state {
+	color: #333;
+}
+td.info-list .info-state {
+	float: left;
+	width: 100px;
+}
+td.open {
+	padding-bottom: 2px;
+}
+td.open h3 {
+	margin-left: 40px;
+	font-size: 16px;
+	color: #333;
+	text-indent: 0;
+}
+td.open span {
+	float: right;
+	clear: right;
+	line-height: 12px;
+	margin-bottom: 11px;
+}
+td.open .info-state {
+	display: none;
+}
+td.open p, td.open .info-short {
+	display: block;
+}

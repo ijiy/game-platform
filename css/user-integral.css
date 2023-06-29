@@ -1,0 +1,17 @@
+.con {
+	padding-right: 20px;
+}
+.header-tip {
+	width: 710px;
+	_width: 748px;
+	height: 58px;
+	padding: 0 19px;
+	line-height: 58px;
+}
+.header-tip a {
+	float: right;
+}
+.header-tip em {
+	font-size: 28px;
+	vertical-align: top;
+}

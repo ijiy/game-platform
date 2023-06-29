@@ -1,0 +1,159 @@
+.game-new h2 {
+	margin-top: 0;
+}
+
+.article h2 .logo-notices {
+	overflow: hidden;
+	width: 230px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 18px;
+	color: #0fa6e3;
+}
+.article h2 .logo-notices marquee {
+	float: left;
+	*padding-top: 5px;
+}
+.article h2 .logo-notices a {
+	float: none;
+	vertical-align: top;
+	margin-right: 100%;
+	color: #0fa6e3;
+}
+.article h2 li {
+	font-size: 12px;
+}
+.server-list .con {
+	min-height: 431px;
+	_height: 461px;
+	padding: 19px;
+}
+.server-list .block {
+	_overflow: hidden;
+	background: none;
+}
+.server-list .con ul {
+	width: 875px;
+}
+.server-list .con li {
+	float: left;
+	width: 198px;
+	height: 42px;
+	line-height: 42px;
+	margin: 0 18px 20px 0;
+	text-align: center;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+}
+.server-latest ul li {
+	background: #f2f2f2;
+	background: -webkit-linear-gradient(top, #fefefe, #e8e8e8);
+	background: -moz-linear-gradient(top, #fefefe, #e8e8e8);
+	background: -ms-linear-gradient(top, #fefefe, #e8e8e8);
+	*background: #f2f2f2;
+}
+.server-list .con li a {
+	display: block;
+	height: 100%;
+}
+.server-latest {
+	overflow: hidden;
+	border-bottom: 1px dashed #dedede;
+	*padding-bottom: 20px;
+}
+.server-nav {
+	height: 42px;
+	line-height: 42px;
+	margin: 11px 0 20px;
+	border-bottom: 2px solid #d9d9d9;
+}
+
+.nav-fast {
+	float: right;
+}
+.nav-fast input, .nav-fast label {
+	float: right;
+}
+.nav-fast input {
+	width: 53px;
+	_width: 55px;
+	height: 22px;
+	_height: 24px;
+	line-height: 22px\9;
+	margin-top: 10px;
+	border-radius: 3px;
+	border: 1px solid #d9d9d9;
+}
+.nav-fast .custom-btns {
+	margin-left: 5px;
+	border-color: #f8a13a;
+}
+.server-list .con .state-wait {
+	border-color: #ff9913;
+	color: #ff9913;
+}
+.state-hot span, .state-oam span, .state-nor span, .state-new span {
+	float: right;
+	_display: inline;
+	width: 38px;
+	height: 18px;
+	line-height: 18px;
+	color: #FFF;
+	margin: 11px 9px 0 0;
+	border: 1px solid #747474;
+	text-align: center;
+	background: #868686;
+	border-radius: 2px;
+	box-shadow: inset 0 0 1px #FFF;
+}
+.state-new span {
+	background: #12abe9;
+	border-color: #1097ce;
+}
+.state-hot span {
+	background: #C00;
+	border-color: #b80000;
+}
+.state-nor span {
+	background: #66c229;
+	border-color: #3a9100;
+}
+.state-wait span {
+	float: right;
+	line-height: 13px;
+	margin: 8px 8px 0 0;
+	color: #C00;
+	text-align: left;
+}
+.state-wait a, .state-oam a {
+	cursor: default;
+}
+.state-wait a:hover, .state-oam a:hover {
+	color: inherit;
+}
+.banner .download {
+	_display: inline;
+	float: right;
+	width: 118px;
+	height: 48px;
+	line-height: 48px;
+	margin: -10px 10px 0 19px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 4px 4px 0 0;
+}
+.banner .bottom .fl {
+	padding-left: 17px;
+}
+.banner .bottom .fl a, .banner .bottom .fl b {
+	float: left;
+	color: #FFF;
+}
+.banner .bottom .fl a:hover {
+	color: #03b4f5;
+}
+.banner .bottom .fl b {
+	_display: inline;
+	margin: 0 8px;
+}

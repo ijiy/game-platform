@@ -1,0 +1,15 @@
+.user-aside li a {
+	background-image: url(../images/customer-list.png);
+}
+.user-aside li a:hover, .user-aside li a.on {
+	background-image: url(../images/customer-list-hover.png);
+}
+
+.header-tip {
+	width: 739px;
+	_width: 750px;
+	padding-right: 0;
+}
+.logo-notices {
+	padding-left: 20px;
+}

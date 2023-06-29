@@ -1,0 +1,13 @@
+.progress-nav {
+	background: #e7e7e7 url(../images/progress-security.jpg) no-repeat;
+}
+.wrap-select div {
+	position: relative;
+	float: left;
+}
+.wrap-select input {
+	border: 0;
+}
+.wrap-select ul {
+	width: 236px;
+}

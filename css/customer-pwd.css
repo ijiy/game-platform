@@ -1,0 +1,17 @@
+.mode-pwd {
+	padding-top: 40px;
+}
+.mode-pwd li {
+	float: left;
+	padding: 0 68px;
+	margin-right: 20px;
+}
+.mode-pwd a {
+	display: block;
+	width: 100px;
+	padding-top: 115px;
+	font-size: 16px;
+	text-align: center;
+	background-image: url(../images/customer-pwd-mode.png);
+	background-repeat: no-repeat;
+}
